@@ -110,7 +110,7 @@ const TRANSLATIONS = {
     projectTypes: { backend: "Backend", fullstack: "Full Stack", frontend: "Frontend" },
     projectDescriptions: {
   sara7a: "Anonymous messaging platform featuring JWT authentication, Redis session management, role-based authorization, and email notifications.",
-  social: "Modern social media platform with authentication, posts, comments, likes, and real-time interactions.",
+  loop: "LOOP — a social media app with authentication, a global and a following feed, posts (create, edit, delete, share), likes, comments with replies, bookmarks, follow suggestions, notifications, and user profiles with photo upload. Built with React Router, Hero UI, and React Hook Form + Zod on top of a REST API.",
   ecommerce: "E-commerce application with authentication, product management, cart, orders, and payment integration.",
   noteApp: "SPA for managing notes with register/login, JWT authentication, and full create, edit, and delete flows, built with React Router, Hero UI components, and React Hook Form + Zod validation.",
   weather: "Weather dashboard with city search, live conditions (temperature, feels-like, humidity, wind, pressure, visibility), a 5-day forecast with icons, and dark mode, powered by the free wttr.in API.",
@@ -156,7 +156,7 @@ const TRANSLATIONS = {
     projectTypes: { backend: "باك اند", fullstack: "فل ستاك", frontend: "فرونت اند" },
     projectDescriptions: {
   sara7a: "منصة مراسلة مجهولة الهوية تتضمن مصادقة JWT، وإدارة جلسات عبر Redis، وصلاحيات حسب الأدوار، وإشعارات بريد إلكتروني.",
-  social: "منصة تواصل اجتماعي حديثة تتضمن مصادقة، ومنشورات، وتعليقات، وإعجابات، وتفاعلات لحظية.",
+  loop: "LOOP — تطبيق تواصل اجتماعي فيه مصادقة، وفيد عام وفيد للمتابَعين، ومنشورات (إنشاء وتعديل وحذف ومشاركة)، وإعجابات، وتعليقات مع ردود، وحفظ المنشورات، واقتراحات متابعة، وإشعارات، وصفحات شخصية مع رفع صورة. مبني بـ React Router ومكونات Hero UI مع React Hook Form وZod فوق REST API.",
   ecommerce: "تطبيق تجارة إلكترونية يتضمن مصادقة، وإدارة منتجات، وسلة شراء، وطلبات، وربط بوسائل الدفع.",
   noteApp: "تطبيق SPA لإدارة الملاحظات فيه تسجيل حساب وتسجيل دخول بمصادقة JWT، وعمليات إضافة وتعديل وحذف كاملة، مبني بـ React Router ومكونات Hero UI، مع فاليديشن عبر React Hook Form وZod.",
   weather: "لوحة تحكم للطقس فيها بحث عن أي مدينة، وعرض الحالة الحالية (الحرارة، الإحساس بالحرارة، الرطوبة، الرياح، الضغط، الرؤية)، وتوقعات 5 أيام بأيقونات، ودعم الوضع الليلي، باستخدام API مجاني من wttr.in.",
@@ -291,11 +291,11 @@ function getProjects(t) {
       githubUrl: "https://github.com/Big-Abdallah/sara7a-App/blob/main/README.md",
     },
     {
-      title: "Social Media Platform",
-      type: t.projectTypes.backend,
-      description: t.projectDescriptions.social,
-      tags: ["React", "Node.js", "Express", "MongoDB", "Socket.IO"],
-      githubUrl: "https://github.com/Big-Abdallah",
+      title: "LOOP",
+      type: t.projectTypes.frontend,
+      description: t.projectDescriptions.loop,
+      tags: ["React", "Tailwind CSS", "Hero UI", "React Router", "Zod"],
+      githubUrl: "https://github.com/Big-Abdallah/Loop-SocialMedia",
     },
     {
       title: "E-Commerce Platform",
